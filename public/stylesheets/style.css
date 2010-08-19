@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "IM Fell English", Cambria, serif;
+  background-color: white;
+  color: black;
+  background-image: url("../images/chromed.png");
+  background-size: 100%;
+}
+header, section, footer {
+  display: block;
+}
+#letter, #alphabet, footer {
+  margin: .2em;
+  text-align: center;
+}
+#letter, #alphabet span, footer {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+}
+#letter {
+  border: 2px solid black;
+  font-size: 8em;
+  padding: .8em .1em;
+  color: #3786C7;
+}
+#alphabet {
+  padding: 1em;
+}
+#alphabet span {
+  display: inline-block;
+  width: 1.2em;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: .6em;
+  padding: 1.6em;
+}
+footer {
+  font-size: 1.2em;
+  padding: .8em;
+}
+p {
+  width: 28em;
+}
